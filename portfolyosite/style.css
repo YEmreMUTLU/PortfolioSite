@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+body{
+    background-color: #EDF1FD;
+}
+.nav1{
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.nav1 a{
+    text-decoration: none;
+    color:rgb(214, 108, 108);
+    padding: 1rem;
+    font-weight: bold;
+}
+.nav1 a:hover{
+    color:red;
+    font-size: 1.2rem;
+}
+.main{
+    height: 70vh;
+    /* margin-left: 5rem; */
+}
+.soltaraf {
+  /* text-align: center; */
+  margin-top: 7rem;
+
+}
+
+
+.soltaraf h1, h4, h5{
+   color:rgb(51, 47, 47);
+ 
+}
+
+.sagtaraf{
+    background-image: url(adam2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    filter: grayscale(2);
+    border-radius: 20px;
+
+}
+.links{
+    margin: 1rem;
+    padding: 1rem;
+}
+.links a{
+    margin:0 1rem;
+    color:rgb(214, 108, 108);
+    font-size:1.2rem
+}
+
+.links a:hover{
+    color:red;
+    font-size: 1.4rem;
+}
+p{
+    text-align: center;
+    color:rgb(214, 108, 108);
+}
